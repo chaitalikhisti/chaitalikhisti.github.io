@@ -16,7 +16,7 @@
 		<style>
 		body
 		{
-			background-image: url(green_wallpaperv.jpg);
+			background-image: url(images/green_wallpaperv.jpg);
 			font-family: "Times New Roman", Times, serif;
 		}
 		#nav_bar
@@ -40,6 +40,14 @@
 			margin-left: auto;
 			margin-right: auto
 		}
+		#go_to_top
+		{
+			width: 70px; 
+			height: 70px;
+			position: fixed;
+			bottom: 5px;
+			left: 5px;
+		}
 		#footer
 		{
 			height: 50px;
@@ -55,7 +63,8 @@
 		</style>
 	</head>
 	<body>	
-		<!-- green_wallpaper.JPG url(http://wallpaperswide.com/polygon_green-wallpapers.html)-->
+		<!-- green_wallpaper.JPG url(http://wallpaperswide.com/polygon_green-wallpapers.html)
+		arrow_up.png url(https://www.nesdis.noaa.gov/sites/default/files/assets/images/arrow_up.png)-->
 		<!--
 		 *********** ELEMENTS ***********		
 		-->
@@ -84,17 +93,11 @@
 		<div class="container-fluid" id="resume_container">
 				<iframe class="embed-responsive-item" src="Chaitali_K_Resume.pdf" height="950" width="700" frameborder="0"></iframe>
 		</div>
-		<!-- CONTENT -->
-		<!-- 
-		<iframe src="Chaitali_K_Resume.pdf" height="315" width="560" frameborder="0"></iframe>
-			<object width="800px" height="1200px" data="Chaitali_K_Resume.pdf"></object>
-		<p>View the following for reference:</p>
-			<ul>
-				<li><a href="https://www.wayup.com/profile/Deepa-Vishwanath-87d8e9e837/#">Deepa Vishwanath</a></li>
-				<li><a href="http://kalynnakano.com/#illustration">Kalyn Nakano</a></li>
-				<li><a href="http://pushkarmodi.com/">Pushkar Modi</a></li>
-			</ul>
-		-->
+				
+		<!-- TOP-ARROW -->
+		<a href="#cards"><img src="images/arrow_up.png" id="go_to_top"></img></a>
+		
+		
 		<!-- FOOTER -->
 		<div id="footer">
 			<p id="footer_para">© Chaitali Khisti 2017</p>
