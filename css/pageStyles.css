@@ -124,11 +124,6 @@
 
 @media all and (max-width: 1000px)
 {
-	.card
-	{
-		margin-bottom: 5%;
-		padding-bottom: 5%;
-	}
 	#educBody
 	{
 		background-image: url("../images/books.jpg");
@@ -153,11 +148,6 @@
 
 @media all and (max-width: 500px)
 {
-	.card
-	{
-		margin-bottom: 5%;
-		padding-bottom: 5%;
-	}
 	#educBody
 	{
 		background-image: url("../images/books.jpg");

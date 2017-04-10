@@ -118,8 +118,8 @@ hr
 {
 	display: block;
 	width: 100%;
+	margin-top: 10%;
 	background-color: rgba(0, 0, 0, 0.3);
-	margin-bottom: 0;
 }
 .res-con
 {
