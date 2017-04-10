@@ -119,3 +119,45 @@
 {
 	position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
 }
+
+/* Media Queries */
+
+@media all and (max-width: 1000px)
+{
+	#educBody
+	{
+		background-image: url("../images/books.jpg");
+	}
+	#skillBody
+	{
+		background-image: url("../images/skills.jpg");
+	}
+	#projBody
+	{
+		background-image: url("../images/projects.jpg");
+	}
+	#contactBody
+	{
+		background-image: url("../images/connection.jpg");
+	}
+}
+
+@media all and (max-width: 800px)
+{
+	#educBody
+	{
+		background-image: url("../images/books.jpg");
+	}
+	#skillBody
+	{
+		background-image: url("../images/skills.jpg");
+	}
+	#projBody
+	{
+		background-image: url("../images/projects.jpg");
+	}
+	#contactBody
+	{
+		background-image: url("../images/connection.jpg");
+	}
+}
