@@ -127,37 +127,45 @@
 	#educBody
 	{
 		background-image: url("../images/books.jpg");
+		background-repeat: repeat-y;
 	}
 	#skillBody
 	{
 		background-image: url("../images/skills.jpg");
+		background-repeat: repeat-y;
 	}
 	#projBody
 	{
 		background-image: url("../images/projects.jpg");
+		background-repeat: repeat-y;
 	}
 	#contactBody
 	{
 		background-image: url("../images/connection.jpg");
+		background-repeat: repeat-y;
 	}
 }
 
-@media all and (max-width: 800px)
+@media all and (max-width: 500px)
 {
 	#educBody
 	{
 		background-image: url("../images/books.jpg");
+		background-repeat: repeat-y;
 	}
 	#skillBody
 	{
 		background-image: url("../images/skillset.jpg");
+		background-repeat: repeat-y;
 	}
 	#projBody
 	{
 		background-image: url("../images/projects.jpg");
+		background-repeat: repeat-y;
 	}
 	#contactBody
 	{
 		background-image: url("../images/connection.jpg");
+		background-repeat: repeat-y;
 	}
 }
