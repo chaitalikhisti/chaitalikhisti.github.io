@@ -154,6 +154,10 @@ hr
 
 @media all and (max-width: 1000px)
 {
+	.navPlacement
+	{
+		padding-top: 2%;
+	}
 	hr
 	{
 		margin: 5% 3% 1% 3%;
@@ -171,6 +175,10 @@ hr
 
 @media all and (max-width: 800px)
 {	
+	.navPlacement
+	{
+		padding-top: 2%;
+	}
 	hr
 	{
 		margin: 5% 3% 1% 3%;
