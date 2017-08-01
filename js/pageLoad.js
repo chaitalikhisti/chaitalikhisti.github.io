@@ -1,41 +1,41 @@
-/*	PAGE-LOAD.JS DOCUMENT	*/
+/*	PAGE-LOAD.JS  */
 
 function loadIntroPage()
 {
-	window.location.href = "otherWebpages/IntroPage.html";
+    window.location.href = "index.html";
 }
 
 function loadEducPage()
 {
-	window.location.href = "otherWebpages/EducPage.html";
+    window.location.href = "otherPages/education.html";
 }
 
 function loadSkillPage()
 {
-	window.location.href = "otherWebpages/SkillPage.html";
+    window.location.href = "otherPages/skills.html";
 }
 
 function loadProjPage()
 {
-	window.location.href = "otherWebpages/ProjPage.html";
+    window.location.href = "otherPages/projects.html";
 }
 
 function loadContactPage()
 {
-	window.location.href = "otherWebpages/ContactPage.html";
+    window.location.href = "otherPages/contact.html";
 }
 
 function loadResumePage()
 {
-	window.open('ResumePage.html');
+    window.open('resume.html');
 }
 
 function loadRP()
 {
-	window.open('otherWebpages/ResumePage.html');
+    window.open('otherPages/resume.html');
 }
 
 function loadCP()
 {
-	window.location.href = "ContactPage.html";
+    window.location.href = "contact.html";
 }

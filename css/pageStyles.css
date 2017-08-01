@@ -1,179 +1,46 @@
-@charset "UTF-8";
-/* PAGE-STYLES.CSS DOCUMENT */
-			
-/* Cards for all Pages */
-
-.card
+﻿/*
+    PAGE-SPECIFIC STYLING
+*/
+/* Introduction Page Styling */
+#introBody 
 {
-	margin: 2% 15% 5% 15%;
-	padding: 1.5% 1.5% 1% 1.5%;
+    /* Ref: https: //www.webpagefx.com/blog/web-design/responsive-background-image/ */
+    /* profile.jpg: http://www.homeselfe.com/wp-content/uploads/2016/06/gas-saving-tips.jpg */
+    background-image: url("..//images//profile.jpg");
 }
-
-/* Introduction Page*/
-
-#introBody
-{
-	/* profile.jpg: http://www.homeselfe.com/wp-content/uploads/2016/06/gas-saving-tips.jpg */
-	background-image: url("../images/profile.jpg");
-}
-
-/* Education Page*/
+/* Education Page Styling */
 #educBody
 {
-	background-image: url("../images/books.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("../images/books.jpg");
 }
 
-.course-button
+/* Skills Page Styling */
+#skillsBody 
 {
-	text-align: center;
-	margin-top:2%;
+    /* skills.jpg: http://fscom.com/wp-content/uploads/2016/02/header3.jpg */
+    background-image: url("../images/skillset.jpg");
 }
 
-.details
+/* Projects Page Styling */
+#projBody 
 {
-	margin-left: 5%;
+    /* projects: https://www.bluegrass.net/wp-content/uploads/2016/11/pexels-photo-90807.jpeg */
+    background-image: url("../images/projects.jpg");
 }
 
-.course-list
+/* Contact Page Styling */
+#contactBody 
 {
-	text-align: left;
+    /* connection.jpg: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAANQAAAAJGE2Nzg4ZjQxLTJiYTctNGNjZS05YzEyLTQyYzgwM2RiYjQ2MA.jpg */
+    background-image: url("../images/connection.jpg");
 }
 
-/* Skill Page */
-#skillBody
+/* Resume Page Styling */
+.container-fluid 
 {
-	/* skills.jpg: http://fscom.com/wp-content/uploads/2016/02/header3.jpg */
-	background-image: url("../images/skillset.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.progress-prog
-{
-	background-color: #87CEFA;
-}
-
-.progress-db
-{
-	background-color: #1E90FF;
-}
-
-.progress-web
-{
-	background-color: ;
-}
-
-.progress-dev
-{
-	background-color: #4169E1;
-}
-
-.progress-pres
-{
-	background-color: #0000CD;
-}
-
-.progress-ss
-{
-	background-color: #000080;
-}
-
-/* Project Page*/
-#projBody
-{
-	/* projects: https://www.bluegrass.net/wp-content/uploads/2016/11/pexels-photo-90807.jpeg */
-	background-image: url("../images/projects.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-/* Contact Page */
-#contactBody
-{
-	/* connection.jpg: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAANQAAAAJGE2Nzg4ZjQxLTJiYTctNGNjZS05YzEyLTQyYzgwM2RiYjQ2MA.jpg */
-	background-image: url("../images/connection.jpg");
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-}
-
-.trans-card
-{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-	border: 0;
-	color: #fff;
-	font-size: 120%;
-}
-
-#linkedin-badge
-{
-	background-color: #fff;
-	border: 0;
-}
-
-/* Resume Page */
-.container-fluid
-{
-	position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
-}
-
-/* Media Queries */
-
-@media all and (max-width: 1000px)
-{
-	#educBody
-	{
-		background-image: url("../images/books.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#skillBody
-	{
-		background-image: url("../images/skills.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#projBody
-	{
-		background-image: url("../images/projects.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#contactBody
-	{
-		background-image: url("../images/connection.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-}
-
-@media all and (max-width: 500px)
-{
-	#educBody
-	{
-		background-image: url("../images/books.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#skillBody
-	{
-		background-image: url("../images/skillset.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#projBody
-	{
-		background-image: url("../images/projects.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
-	#contactBody
-	{
-		background-image: url("../images/connection.jpg");
-		/* background-repeat: repeat-y; */
-		background-size: cover;
-	}
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
 }
